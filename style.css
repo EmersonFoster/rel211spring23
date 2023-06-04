@@ -5,9 +5,15 @@ html {
 color: black}
 
 
-h1,h2{
+h1,h2,h3{
     text-align: center;
+
 }
+h3{
+    background-color: #C33C54;
+    color: white;
+}
+    
 
 .week2,.week3,.week4,.week5,.week6,.week7{
     display: none;
@@ -21,29 +27,25 @@ footer{
 body{
     max-width: 1280px;
     height: 800px;
+
+    color: black;
+   
    
 }
 
 main{
-    border: solid 4px #253237;
-   
+border: solid 3px #C33C54;
     max-width: 1000px;
-    height: 500px;
+    height: 1000px;
 }
 
-.main{
-    border: solid 4px #253237;
-   
-    max-width: 1000px;
-    height: 350px;
-}
 p{
     text-align: left;
     padding: 10px;
 }
 
-ul{
-        list-style: none;
+ol{
+    list-style: none;
       text-align: center;
   }
 
@@ -54,8 +56,13 @@ ul{
     text-align: center;
     text-decoration: none;
     display: inline-block;
+  
   }
   
   a:hover, a:active {
-    background-color: red;
+    background-color:  rosybrown;
+   
+    
   }
+
+ 
