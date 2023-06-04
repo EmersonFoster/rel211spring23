@@ -3,12 +3,9 @@ html {
     max-width: 950px;
     margin: auto;
 color: black}
-section{
-    text-align: center;
-  
-}
 
-h1{
+
+h1,h2{
     text-align: center;
 }
 
@@ -38,3 +35,21 @@ p{
     text-align: left;
     padding: 10px;
 }
+
+ul{
+        list-style: none;
+      text-align: center;
+  }
+
+  a:link, a:visited {
+  
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
